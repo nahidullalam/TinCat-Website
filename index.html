@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinCat</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- font awsome  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+
+    <section id="title">
+
+    <div class="container-fluid">
+<!-- nav bar -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href=""><i class="fa-solid fa-cat"></i>tincat</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Download</a>
+                </li>
+                
+                <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown" >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>                
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+<!-- Title -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading">
+                    Meet new and interesting cat nearby
+                </h1>
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>Download</button>
+                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>Download</button>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="title-image" src="image/iphone-cat.png" alt="iphone-mockup">
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+<!-- features -->
+
+<section id="features">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="features-box col-lg-4">
+                <i class="fa-solid fa-circle-check fa-4x icon"></i>
+                <h3 class="feature-title">Easy to use</h3>
+                <p>So easy to use, even your cat could do it</p>
+            </div>
+            
+            <div class="features-box col-lg-4">
+                <i class="fa-solid fa-bullseye fa-4x icon"></i>
+                <h3 class="feature-title">Elite Clientele</h3>
+                <p>We have all the cats, the greatest cats</p>
+            </div>
+            
+            <div class="features-box col-lg-4">
+                <i class="fa-solid fa-heart fa-4x icon"></i>
+                <h3 class="feature-title">Guaranteed to Work</h3>
+                <p>Find the love of your dog's life or your money back</p>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+
+<!-- Testimonials -->
+
+<section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active container-fluid">
+                <h2 class="testimonial-text">I no longer have to knock things off shelves for attention. I’ve found the purr-fect cat on MeowMatch. Meow…</h2>
+                <img class="testimonial-image" src="image/cat.jpg" alt="cat-profile">
+                <em class="testimonial-em">Leo, Bangladesh</em>
+            </div>
+        
+            <div class="carousel-item container-fluid">
+                <h2 class="testimonial-text">My cat used to spend all day judging humans in silence, but with MeowMatch’s help, they’ve finally found their purr-son. I think…</h2>
+                <img class="testimonial-image" src="image/me2.png" alt="nahid">
+                <em class="testimonial-em">Nahidul Alam, Bangladesh</em>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+            <i class="fa-solid fa-backward fa-2x"></i>                        <!-- <span class="visually-hidden">Previous</span> -->
+        
+        </button>
+        
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+            <i class="fa-solid fa-forward fa-2x"></i>
+            <!-- <span class="visually-hidden">next</span> -->
+        
+        </button>
+    </div>
+
+</section>
+
+<!-- press -->
+
+<section id="press">
+    <img class="press-logo" src="image/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="image/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="image/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="image/mashable.png" alt="mashable-logo">    
+</section>
+
+
+
+<!-- pricing -->
+
+    <section id="pricing" >
+        <h2 class="section-heading">A plan for Every Cat's Needs</h2>
+        <p>Simple and affordable price plans for you and your cat</p>
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">                
+                <div class="card " >
+                    <div class=card-header>
+                        <h3>Tabby</h3>
+                    </div>            
+                    <div class=card-body>
+                        <h2 class="price-text">Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class=card-header>
+                        <h3>Siamese</h3>
+                    </div>
+                    <div class=card-body>
+                        <h2 class="price-text">$49 / mo</h2>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>   
+                </div>
+            </div> 
+            
+            <div class="pricing-column col-lg-4" >
+                <div class="card">
+                    <div class=card-header>
+                        <h3>Maine Coon</h3>
+                    </div>
+                    <div class=card-body>
+                        <h2 class="price-text">$99 / mo</h2>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        
+        </div>       
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+        <div class="container-fluid">
+            <h3 class="cta-heading">Find the True Love of Your Cat's Life Today.</h3>
+            <button class="btn btn-lg btn-dark download-button" type="button"><i class="fa-brands fa-apple"></i>Download</button>
+            <button class="btn btn-lg btn-outline-light download-button" type="button"><i class="fa-brands fa-google-play"></i>Download</button>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <i class="social-icon fa-brands fa-square-x-twitter"></i>
+            <i class="social-icon fa-brands fa-square-instagram"></i>
+            <i class="social-icon fa-brands fa-facebook"></i>
+            <i class="social-icon fa-solid fa-envelope"></i>
+            <p>@Copyright 2025 DorBesH</p>
+        </div>
+    </footer>
+
+
+<!-- js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
